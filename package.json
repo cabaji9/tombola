@@ -1,0 +1,54 @@
+{
+  "name": "Tombola",
+  "version": "1.0.0",
+  "description": "Tombola Web",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "less": "2.7.1",
+    "gulp": "3.9.1",
+    "http-server": "0.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.1.0",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-minify": "^0.0.14",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "yargs": "^6.3.0",
+    "gulp-sourcemaps": "^2.1.1",
+    "gulp-rename": "^1.2.2",
+    "uglify-js": "^2.7.3",
+    "uglify": "^0.1.5"
+  },
+  "config": {
+    "port": "8087"
+  },
+  "scripts": {
+    "prod-tombola": "node ./node_modules/gulp/bin/gulp.js production ",
+    "local": "node ./node_modules/gulp/bin/gulp.js",
+    "start": "node ./node_modules/http-server/bin/http-server -a localhost -p $npm_package_config_port --cors",
+    "generate:cert" : "openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem",
+    "startHttps": "node ./node_modules/http-server/bin/http-server -a localhost -p $npm_package_config_port --cors --ssl -C cert.pem",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "template"
+
+  ],
+  "author": {
+    "name": "Hyun woo Son lee",
+    "email": "hson@advlatam.com"
+  },
+  "contributors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "license": "UNLICENSED",
+  "homepage": ""
+}

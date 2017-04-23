@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?nep17p');
+    src:    url('fonts/icomoon.eot?nep17p#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?nep17p') format('truetype'),
+        url('fonts/icomoon.woff?nep17p') format('woff'),
+        url('fonts/icomoon.svg?nep17p#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+i {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-next:before {
+    content: "\e900";
+}
+.icon-prev:before {
+    content: "\e901";
+}
+.icon-menu:before {
+    content: "\e906";
+}
+.icon-views:before {
+    content: "\e903";
+}
+.icon-social-twitter:before {
+    content: "\e90c";
+}
+.icon-social-facebook:before {
+    content: "\e90d";
+}
+.icon-message:before {
+    content: "\e904";
+}
+.icon-like:before {
+    content: "\e90b";
+}
+.icon-user-only:before {
+    content: "\e90e";
+}
+.icon-user:before {
+    content: "\e905";
+}
+.icon-twitter:before {
+    content: "\e907";
+}
+.icon-facebook:before {
+    content: "\e908";
+}
+.icon-social-mail:before {
+    content: "\e90f";
+}
+.icon-search:before {
+    content: "\e909";
+}
+.icon-play:before {
+    content: "\e90a";
+}
+.icon-point:before {
+    content: "\e902";
+}
+.icon-social-share:before {
+    content: "\e910";
+}
+.icon-social-plus:before {
+    content: "\e911";
+}
+

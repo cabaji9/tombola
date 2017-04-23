@@ -1,0 +1,40 @@
+{
+  "name": "template",
+  "authors": [
+    "hson@advlatam.com"
+  ],
+  "description": "Configurations for admin content",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "src/main/webapp/resources/bower_components",
+    "node_modules",
+    "bower_components",
+    "src/main/webapp/resources/components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-bootstrap": "~0.14.3",
+    "angular-route": "~1.4.1",
+    "bootstrap": "~3.3.5",
+    "bootstrap-css": "3.3.5",
+    "angular-sanitize": "1.5.8",
+    "ngAnalytics": "nganalytics#^1.1.4",
+    "font-awesome": "^4.7.0",
+    "chance": "~0.7.0",
+    "underscore" :"1.8.3",
+    "momentjs":"2.8.4",
+    "jquery.easing": "~1.3.1",
+    "jquery": "2.2.0",
+    "components-font-awesome": "^4.7.0"
+  },
+  "resolutions": {
+    "angular": "1.5.8"
+  },
+  "main": "",
+  "moduleType": [],
+  "homepage": "",
+  "devDependencies": {}
+}

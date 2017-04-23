@@ -1,0 +1,304 @@
+@import "./icomoon/style.css";
+
+
+
+html, body{
+	max-width: 100%!important;
+}
+
+
+/* for mobile phones */
+
+@media only screen and (min-device-width : 310px)  { 
+
+	.social-share {
+		text-align: center;
+		height: 65px;
+
+	}
+}
+
+@media only screen and (min-device-width : 310px) and (max-device-width : 667px) { 
+	.app-container {
+	  height: initial;
+	  min-height: initial !important;
+	  box-shadow: none !important;
+	}
+
+}
+
+.social-share a.fa {
+	text-decoration: none;
+	font: normal normal normal 24px/1 FontAwesome !important;
+	display: block;
+	padding-top: 5px;
+	height: 35px;
+	text-align: center;
+}
+
+.app-container{
+  max-width: 1366px;
+  min-height: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 0px 1px 15px #000 !important;
+}
+
+#wait-site {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	 max-width: 1366px;
+}
+
+.centered {
+	position: fixed; /* or absolute */
+	top: 50%;
+	left: 30%;
+}
+
+@media screen and (min-width: 769px) {
+	.centered {
+		left: 40%;
+	}
+	
+	#channel-list-header{
+		float: right!important;
+	}
+	
+}
+
+#wait-site
+.cg-busy-backdrop {
+	background-color: #000;
+	opacity: 0.9;
+}
+
+#wait-site
+.cg-busy-default-spinner {
+	top: 60px;
+}
+
+#wait-site
+.cg-busy-default-spinner div {
+	background-color: #FFF;
+}
+
+#wait-site
+.cg-busy-default-text{
+	margin: 13px 12px 6px 8px;
+}
+
+
+.back-wait{
+	z-index: -50;
+	height: 90% !important;
+}
+
+
+
+img {
+	max-width: 100%;
+}
+
+a{
+	text-decoration: none; !important;
+}
+
+.social-share a, .social-share a:link,.social-share a:visited, .social-share a:hover, .social-share a:active {
+	text-decoration: none; !important;
+	color: white;
+}
+.fb	a, .fb a:link,.fb a:visited, .fb a:hover, .fb a:active {
+	background-color: #3b5998;
+}
+
+.fb a:hover {
+	opacity: 0.8;
+}
+
+.tw a, .tw a:link, .tw a:visited, .tw a:hover, .tw a:active {
+	background-color: #1da1f2;
+}
+.tw a:hover {
+	opacity: 0.8;
+}
+
+.wp a, .wp a:link, .wp a:visited, .wp a:hover, .wp a:active {
+	background-color: #0dc143;
+}
+
+.wp a:hover {
+	opacity: 0.8;
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.objblink {
+-webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: blink;
+    -webkit-animation-timing-function: ease-in-out;
+    
+-moz-animation-direction: normal;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: blink;
+    -moz-animation-timing-function: ease-in-out;    
+}
+
+#movix-main-header .navbar-brand{
+	max-width: 250px;
+	max-height: 87px;
+	width : auto;	 
+	height: auto;
+	position: absolute;
+	
+}
+
+.like-logo {
+	max-width: 220px !important;
+    margin-top: -18px;
+}
+
+
+iframe{
+	width: 100%;
+}
+
+
+#xs-user-menu{
+	margin: 1em -0.5em 0 0;
+}
+
+#responsive-navbar-brand{
+	
+	height: 90%;
+	width: auto;
+	position: absolute;
+	max-height: 65px;
+	max-width: 140px;
+}
+
+
+/***************************************************************/
+/************************** HEADER *****************************/
+/***************************************************************/
+.header-logo {
+	max-width: 250px;
+	height: auto;
+	max-height: 100%;
+}
+
+.header-icon {
+	padding: 0.5em;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+.header-form {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+.header-input {
+	width: 50%;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 5px;
+	line-height: 3em;
+	border: none;
+	display: none;
+	background: #fff;
+}
+
+.header-input:focus {
+	outline-style: none;
+}
+
+.header-button {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	font-size: 1em;
+}
+
+.header-button:focus {
+	outline-style: none;
+
+}
+
+
+
+/**********************************************/
+/**************END HEADER**********************/
+/**********************************************/
+
+
+#smart-game-container{
+	width: 100%;
+	height: 100%;
+}
+
+#not-found-container{
+	width: 100%;
+	height: 100%;
+	background: url('../images/404-opt.png') no-repeat center;
+}
+
+#subscription-message iframe{
+	width : 100%;
+	height: 50%;
+}
+.nav-sidebar ul .btn {
+	padding-left: 30px;	
+}
+
+.nav-sidebar ul .section {
+	margin-left: 15px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.footer-element-container{
+	    padding: 5px 10px 20px 10px;
+	    background: white;
+}
